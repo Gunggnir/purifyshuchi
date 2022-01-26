@@ -350,10 +350,10 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '也许你的神力还不够？';
-        if (score <= 99) return '看来得注入更多神力';
-        if (score <= 149) return '书齐知道错了（大概吧？）';
-        if (score <= 199) return '半神竟是你自己';
+        if (score <= 39) return '也许你的神力还不够？';
+        if (score <= 89) return '看来得注入更多神力';
+        if (score <= 119) return '书齐知道错了（大概吧？）';
+        if (score <= 149) return '半神竟是你自己';
         return '您就是正神？';
     }
 
